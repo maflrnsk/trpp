@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>Гостиница "Изумурд Юг"</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900&subset=latin,cyrillic" rel=stylesheet type=text/css>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,700,500&subset=latin,cyrillic" rel=stylesheet type=text/css>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,cyrillic" rel=stylesheet type=text/css>
+    <link href=css/bootstrap.min.css rel=stylesheet type=text/css>
+    <link href=css/main.css rel=stylesheet type=text/css>
+    <link href=css/style.css rel=stylesheet type=text/css>
+    <link href=css/animate.css rel=stylesheet type=text/css>
+    <link href=css/responsive.css rel=stylesheet type=text/css>
+    <link href=css/font-awesome.min.css rel=stylesheet type=text/css>
+</head>
+<body>
+  <div id=wrap>
+    <header class="fixed">
+        <div class="container"> 
+          <div class="logo">
+            <a href="index-2.html">Izumrud Hotel</a>
+          </div>
+          <nav> 
+            <ul class="ownmenu">
+              <li><a href="about.html">О нас </a></li>
+              <li><a href="service.html">Услуги</a></li>
+              <li><a href="contact.html">Контакты</a></li>  
+            </ul>
+          </nav>
+        </div>
+      </header>
+  <div class="sub-banner">
+    <div class="overlay">
+      <div class="container">
+        <h1>КОНТАКТЫ</h1>
+        <ol class="breadcrumb">
+          <li class="pull-left">КОНТАКТЫ</li>
+          <li><a href="index-2.html">Главная</a></li>
+          <li class="active">КОНТАКТЫ</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class ="map-container">
+    <div style="position:relative;overflow:hidden;margin: 0 auto;"><a href="https://yandex.ru/maps/org/izumrud_yug/1144061008/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Изумруд Юг</a><a href="https://yandex.ru/maps/213/moscow/category/hotel/184106414/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Гостиница в Москве</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.616331%2C55.715537&mode=search&no-distribution=1&oid=1144061008&ol=biz&z=15" width="560" height="500" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+  </div>
+  <section class="contact"> 
+    <div class="contact-info">
+      <div class="container"> 
+        <ul class="row con-det">
+          <li class="col-md-4"> <i class="fa fa-map-marker"></i>
+            <p>Россия, Москва, ул. Татищева, 3А </p>
+          </li>
+          <li class="col-md-4"> <i class="fa fa-phone"></i>
+            <p>Тел.: +7 495 633-84-79</p>
+            <p>E-mail: sonvhx@icloud.com</p>
+          </li>
+          <li class="col-md-4"> <i class="fa fa-clock-o"></i>
+            <p>Время работы  :     Круглосуточно,</p>
+            <p>Без выходных и праздничных дней</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="container"> 
+        <div class="tittle"> <img src="images/head-top.png" alt="">
+          <h3>Форма обратной связи</h3>
+          <p>Мы всегда готовы выслушать ваши вопросы, пожелания и отзывы. Пожалуйста, воспользуйтесь нашей формой обратной связи, чтобы связаться с нами. Ваше мнение важно для нас, и мы стремимся к тому, чтобы каждый гость нашей гостиницы чувствовал, что его голос услышан и уважаем. </p>
+        </div>
+        <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Спасибо! Ваше сообщение принято!</div>
+        <form role="form" id="contact_form" method="post" onSubmit="return false">
+          <ul class="row">
+            <li class="col-sm-6">
+              <label class="font-lora">Имя *
+                <input type="text" class="form-control" name="name" id="name" placeholder="">
+              </label>
+            </li>
+            <li class="col-sm-6">
+              <label class="font-lora">E-mail *
+                <input type="text" class="form-control" name="email" id="email" placeholder="">
+              </label>
+            </li>
+            <li class="col-sm-6">
+              <label class="font-lora">Телефон *
+                <input type="text" class="form-control" name="company" id="company" placeholder="">
+              </label>
+            </li>
+            <li class="col-sm-6">
+              <label class="font-lora">Тема
+                <input type="text" class="form-control" name="website" id="website" placeholder="">
+              </label>
+            </li>
+            <li class="col-sm-12">
+              <label class="font-lora">Сообщение
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder=""></textarea>
+              </label>
+            </li>
+            <li class="col-sm-12">
+              <button type="submit" value="submit" class="btn font-lora" id="btn_submit" onClick="proceed();">Готово</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class=container>
+        <ul class=row>
+            <li class=col-sm-3>
+                <h5>О компании</h5>
+                <hr>
+                <p>Недорогая гостиница "ИЗУМРУД" на юге Москвы в 8 минутах езды от центра столицы.</p>
+            </li>
+            <li class=col-sm-3>
+                <h5>Последние новости</h5>
+                <hr>
+                <ul class=tweet>
+                    <li>
+                        <p>Реконструкция и модернизация общественных зон и номеров для повышения качества пребывания гостей.</p>
+                    </li>
+                    <li>
+                        <p>Внедрение новых технологий для улучшения комфорта гостей и оптимизации обслуживания.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class=col-sm-3>
+                <h5>Горячее</h5>
+                <hr>
+                <ul class=recent-come>
+                    <li>
+                        <div class=img-post><img src=https://avatars.mds.yandex.net/get-altay/965237/2a00000162b8654e3db06a401a72317f2f3c/XXXL alt="">
+                        </div>
+                        <div class=text-post><a href=#.>Люкс.</a> <span>от 4 600 р/сутки</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=img-post><img src=https://s.101hotelscdn.ru/uploads/image/hotel_image/2580/3251642.jpg alt="">
+                        </div>
+                        <div class=text-post><a href=#.>Джуниор Сюит.</a> <span>от 3 900 р/сутки</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=img-post><img src=https://s.101hotelscdn.ru/uploads/image/hotel_image/2580/3251648.jpg alt="">
+                        </div>
+                        <div class=text-post><a href=#.>Стандар Одноместный.</a> <span>3 500 р/сутки</span>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class=col-sm-3>
+                <h5>Связь</h5>
+                <hr>
+                <div class=loc-info>
+                    <p><i class="fa fa-map-marker"></i> Россия, Москва, ул. Татищева, 3А</p>
+                    <p><i class="fa fa-phone"></i> +7 495 633-84-79</p>
+                    <p><i class="fa fa-envelope-o"></i> mail@mail.com</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</footer>
+  <div class="rights">
+    <div class="container">
+      <p class="font-lora">© 2023 Гостиница "Изумруд ЮГ"</p>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-1.11.0.min.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/bootstrap-select.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.stellar.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/jquery.sticky.js"></script> 
+<script src="js/own-menu.js"></script> 
+<script src="js/jquery.nouislider.min.js"></script> 
+<script src="js/bootstrap-select.js"></script> 
+<script src="js/main.js"></script> 
+<script src="js/mapmarker.js"></script> 
+<script type='text/javascript' src='https://maps.google.com/maps/api/js?sensor=false'></script> 
+<script type="text/javascript"> 
+$(document).ready(function(){
+var myMarkers = {"markers": [{
+		
+	"latitude": "55.751707",
+	"longitude":"37.6302469",
+	
+	"icon": "images/map-locator.png", 
+	"baloon_text": 'Россия, ул. Варварка 10'
+}]};
+	
+$("#map").mapmarker({
+  zoom  : 17,
+  center  : 'Россия, Москва, ул. Варварка 10',
+  markers : myMarkers
+  });
+});
+</script>
+</body>
+</html>
